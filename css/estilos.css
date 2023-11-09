@@ -45,10 +45,9 @@ h2{
     text-align: center; 
       font-weight: bold; 
       color: black; 
+
 }
-
-
-    
+ 
 .contenedor{
 
     padding: 3rem;
@@ -104,8 +103,6 @@ h2{
     padding: 2rem;
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     gap: 5rem;
 }
 
@@ -197,8 +194,6 @@ footer{
     }
 
     .letrafooter{
-       
-        
         margin-bottom: 1rem;
     }
      .redes li i{
@@ -214,7 +209,7 @@ footer{
     .textoprincipal{
  
     font-size: small;
-        margin-top: 2rem;
+ margin-top: 2rem;
      }
     }    
 
@@ -238,11 +233,11 @@ footer{
                 
             } 
             
-    .contenedor2 img{
-     width: 100%;
-     height: auto;
-            
-            }
+            .contenedor2 img{
+                width: 100%;
+                height: auto;
+                       
+                       }
         }
 
  @media (max-width: 800px) {
@@ -316,3 +311,92 @@ footer{
   
 }
 }
+
+@media (max-width: 1400px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenedorfuturo img{
+        width: 100%;
+        height: auto;
+               
+               }
+  }
+  @media (max-width: 700px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenedorfuturo img{
+        width: 600px;
+        height: auto;
+               
+               }
+  }
+  @media (max-width: 630px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .contenedorfuturo img{
+        width: 500px;
+        height: auto;
+               
+               }
+  }
+  @media (max-width: 535px) {
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 0 1rem;
+    padding: 1rem;
+    }
+    .contenedorfuturo img{
+        width: 100%;
+        height: auto;
+               
+               }
+  }
+  @media (max-width: 235px) {
+
+    
+    .contenedorfuturo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    .contenedorfuturo img{
+        width: 100px;
+        height: auto;
+               
+               }
+               h2{
+                font-size: small;
+                margin-top: 20px;
+                text-align: center; 
+                  font-weight: bold; 
+                  color: black; 
+            
+            }
+            .textoprincipal{
+ 
+                font-size: small;
+             margin-top: 2rem;
+                 }
+
+h3{
+font-size: small;
+}
+}
+            
